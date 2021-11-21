@@ -66,15 +66,19 @@ section h2 {
 
  #hero {
 
-     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://unsplash.com/photos/-jcAV7ARW1A'); 
+     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../bg-img/bg-img-one.jpg'); 
  }
 
  #about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://unsplash.com/photos/EEDLURXCpqg'); 
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../bg-img/bg-img-two.jpg'); 
   
  }
  #contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://unsplash.com/photos/Ho57j-bAjoQ'); 
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../bg-img/bg-img-three.jpg'); 
 
 
  }
+
+ #projects {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../bg-img/bg-img-four.jpg');
+ }       

@@ -42,13 +42,13 @@ const resolvers = {
       return { token, user };
     },
 
-    saveBook: async (parent, args, context) => {
+    saveBook: async (parent, {input}, context) => {
+      console.log(input ,context.user._id)
       if (context.user) {
-        const thought = await Thought.create({ ...args, username: context.user.username });
-
-        await User.findByIdAndUpdate(
+       
+      const updatedUser=  await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $push: { saveBooks: input } },
+          { $push: { savedBooks: input } },
           { new: true, runValidators: true }
         );
 

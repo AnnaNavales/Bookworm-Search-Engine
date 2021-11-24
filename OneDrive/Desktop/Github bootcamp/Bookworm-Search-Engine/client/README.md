@@ -7,12 +7,13 @@
 
  # Deployed to Heroku
 
+https://git.heroku.com/dry-fortress-20301.git
 
 
  # Installation
 
  Clone starter code from Github
- Change Directory Bookworm-Search-Engine
+ cd Bookworm-Search-Engine
  npm install
  npm start
 
